@@ -1,0 +1,50 @@
+
+</div>
+<footer>
+    <div class="container">
+        <div class="col-sm-6">© 2014 SubContract. All Rights Reserved.</div>
+        <div class="col-sm-6" align="right"><p>** Page rendered in <strong>{elapsed_time}</strong> seconds **</p></div>
+    </div>
+</footer>
+</div>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        $.ajax({
+            url: "<?php echo base_url('dashboard/reqCount')?>",
+            error: function(){
+                alert(data);
+            },
+            success:function(iReqCount){
+                //alert(iReqCount);
+                if(iReqCount == 0) {
+                    $("#notification_count").hide();
+                }else{
+                    $("#notification_count").css('display','block');
+                    $("#notification_count").html(iReqCount);
+                }
+            }
+        });
+    });
+</script>
+
+    <script type="text/javascript">
+
+    jQuery(function(){
+
+        var url = window.location.pathname,
+            urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
+// now grab every link from the navigation
+        jQuery('.drop_menu a').each(function(){
+// and test its normalized href against the url pathname regexp
+            if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                jQuery(this).addClass('active');
+                jQuery(this).parent('li').addClass('active');
+            }
+        });
+
+    });
+
+</script>
+
+</body>
+</html>

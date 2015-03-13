@@ -1,0 +1,264 @@
+﻿/* Tab Content - menucool.com */
+ul.tabs
+{
+    padding: 6px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+        
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:4px; /*distance between tabs*/
+}
+        
+ul.tabs li a
+{
+    font: normal 12px Verdana;
+    text-decoration: none;
+    position: relative;
+    padding: 6px 14px;
+    border: 1px solid #B7B7B7;
+    color: #000;
+    background: #F7F7F7 url(tabbg2.gif) repeat-x 0 0;
+    border-radius: 3px 3px 0 0;
+    outline:none;
+}
+        
+ul.tabs li a:visited
+{
+    color: #000;
+}
+        
+ul.tabs li a:hover
+{
+    background:White url(tabbg.gif) repeat-x 0 0;
+}
+        
+ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: white url(tabbg.gif) 0 0 repeat-x;
+    border-bottom-color: white;
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+   
+
+div.tabcontents
+{
+    border-top: 1px solid #B7B7B7; padding:30px 16px;
+
+
+}
+/* //////////////////////////////////////////Notification Styles//////////////////////////////////////*/
+/* //////////////////////////////////////////Notification Styles//////////////////////////////////////*/
+
+#nav{list-style:none;margin: 0px;
+    padding: 0px;}
+#nav li {
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight:bold;
+
+}
+#nav li a{color:#333333;text-decoration:none}
+#nav li a:hover{color:#006699;text-decoration:none}
+#notification_li{position:relative}
+#notificationContainer {
+    background-color: #fff;
+    border: 1px solid rgba(100, 100, 100, .4);
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    overflow: visible;
+    position: absolute;
+    top: 30px;
+    margin-left: -170px;
+    width: 400px;
+    z-index: 1;
+    display: none;
+}
+#notificationContainer:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    color: transparent;
+    border: 10px solid black;
+    border-color: transparent transparent white;
+    margin-top: -20px;
+    margin-left: 188px;
+}
+#notificationTitle {
+    z-index: 1000;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 13px;
+    background-color: #ffffff;
+    width: 384px;
+    border-bottom: 1px solid #dddddd;
+}
+#notificationsBody {
+    padding: 13px 0px 0px 0px !important;
+    min-height: 300px;
+}
+#notificationFooter {
+    background-color: #16A085;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+    border-top: 1px solid #dddddd;
+}
+#notification_count {
+    padding: 3px 7px 3px 7px;
+    background: #cc0000;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 77px;
+    border-radius: 9px;
+    position: absolute;
+    margin-top: -11px;
+    font-size: 11px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+#notification_li2{position:relative}
+#notificationContainer2 {
+    background-color: #fff;
+    border: 1px solid rgba(100, 100, 100, .4);
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    overflow: visible;
+    position: absolute;
+    top: 30px;
+    margin-left: -170px;
+    width: 400px;
+    z-index: 1;
+    display: none;
+}
+#notificationContainer2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    color: transparent;
+    border: 10px solid black;
+    border-color: transparent transparent white;
+    margin-top: -20px;
+    margin-left: 188px;
+}
+#notificationTitle2 {
+    z-index: 1000;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 13px;
+    background-color: #ffffff;
+    width: 384px;
+    border-bottom: 1px solid #dddddd;
+}
+#notificationsBody2 {
+    padding: 13px 0px 0px 0px !important;
+    min-height: 300px;
+}
+#notificationFooter2 {
+    background-color: #16A085;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+    border-top: 1px solid #dddddd;
+}
+#notification_count2 {
+    padding: 3px 7px 3px 7px;
+    background: #cc0000;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 77px;
+    border-radius: 9px;
+    position: absolute;
+    margin-top: -11px;
+    font-size: 11px;
+}
+/*///////////////////////////user circle view//////////////////////////////////////////////////////////*/
+
+ .circle {
+     width: 36px;
+     height: 36px;
+     background-size: cover;
+     background-position: center center;
+     border-radius: 99em;
+ }
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.site-navigation ul li ul { visibility: hidden; }
+.site-navigation ul li:hover > ul { visibility: visible; }
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.dropStick {
+    position:absolute;
+    z-index: 99;
+    width: 100%;
+    height: 55px;
+    background-color: #16A085;
+    padding: 10px 0 0 0;
+    border: 2px;
+    display: none;
+}
+.fixed {
+    position:fixed;
+    display: block;
+}
+.header-margin {
+    margin-left: -68px;
+}
+  .drop_menu {
+      list-style-type:none;
+  }
+.drop_menu li { float:left; }
+.drop_menu li a {
+    padding:9px 10px;
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", geneva, verdana, arial, helvetica, sans-serif;
+}
+/* Submenu */
+.drop_menu li a.active {
+    background: #1D7FB0 !important;
+}
+.drop_menu ul {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    list-style-type:none;
+}
+.drop_menu li:hover { position:relative; }
+.drop_menu li:hover ul {
+    left:0px;
+    top:37px;
+    background:#16A085;
+    padding:0px;
+    z-index: 99;
+}
+.drop_menu li:hover ul li a {
+    padding:5px;
+    display:block;
+    width:170px;
+    text-indent:15px;
+    background-color:#16A085;
+
+}
+.drop_menu li:hover ul li a:hover { background: #1D7FB0; }
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+

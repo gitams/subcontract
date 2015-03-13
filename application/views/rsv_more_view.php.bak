@@ -1,0 +1,17 @@
+<?php //print'<pre>';print_r($requests);
+if((isset($rsvMoreList)) && (!empty($rsvMoreList))) { ?>
+    <?php $i = 1; foreach($rsvMoreList as $rsv) {
+        if($i==9) break;?>
+        <div class="col-md-6" style="margin-bottom: 15px;">
+            <div class="col-md-3"> <img src="<?php echo base_url('assets/images/user1.png');?>" alt=""> </div>
+            <div class="col-md-9">
+                <div style="margin-left: 10px">
+                    <h4 style="color: #1D7FB0"><?php echo $rsv->accountname;?></h4>
+                    <i class="fa fa-flag"></i>&nbsp; <?php echo $rsv->industry_name;?>
+                </div>
+            </div>
+        </div>
+    <?php $i++;} } else {?>
+    <h5>Not Connected to Any One Yet</h5>
+    <a href="<?php echo base_url('dashboard/request');?>" class="btn btn-primary">Send A Request</a>
+<?php } ?>

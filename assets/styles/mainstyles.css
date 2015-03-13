@@ -1,0 +1,95 @@
+body { background:#ecf0f1; color:#595959; font-size:14px; font-family:Myriad Pro, Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, p, ul, li, label { margin:0px; }
+* { margin:0px; padding:0px; }
+.top_header { padding:5px 0px; line-height:30px;}
+.contact_info { font-size:16px; }
+.contact_info label { padding-left:10px; font-weight:normal;   }
+.social_info { padding-top:0px; }
+.social_info a { line-height:30px; color:#999999; font-size:18px; margin-left:10px; }
+.fr { float:right; }
+.clear { clear:both; }
+.fl { float:left; } 
+.nav_section { background:#fff; border-bottom:1px solid #12abb0; padding:20px 0px;  }
+.input_section { border:1px solid #b0b0b0; background:#fff; height:30px; border-radius:3px; padding:0px 10px; color:#8e8e8e; margin-right:10px;  }
+.input_section input { border:none; background:none; width:150px; padding:5px; height:28px; }
+.logo_section { padding-top:5px; }
+.input_section input:focus { border:none; outline:none; }
+.signin_btn { background:#1d7fb0; color:#fff; font-size:18px; border:none; border-radius:3px; padding:3px 20px;   }
+.search_company { background:url(../images/map_bg.jpg) center center no-repeat; height:539px; }
+.search_bar {background:rgba(0,0,0,0.3); height:72px; padding:13px; width:80%;  margin:125px auto 0px auto; border-radius:5px; }
+.landing_search{border:10px solid #888888;width:300px; padding:10px; font-size:16px;}
+.search_bar2 { background:rgba(0,0,0,0.3); height:inherit; padding:13px; width:100%;  margin:15px auto 0px auto; border-radius:5px; }
+.search_barinner { background:#fff; border-radius:3px; height:46px; }
+/*.search_barinner2 { background:#fff; border-radius:3px; height:275px; padding-top: 1px;}*/
+.search_barinner input[type='text'] { border:0px; background:none; height:46px; padding:5px; }
+.search_barinner input:focus { border:none; outline:none; }
+.search_btn  {background: #089f7c/* url(../images/search_btnicon.png) 90% center no-repeat*/;padding:12px;border: 0px;color: #fff;border-radius: 0px 3px 1px 0px;text-align: left;padding-left: 2%;font-size: 20px;font-family: sans-serif, arial;}
+.signup_btns { padding-top:50px; text-align:center; }
+.as_company { display:inline-table; margin-right:100px; width:160px; background:#16a085; border-radius:80px; padding:25px 20px; }
+.as_company a { color:#fff; line-height:30px; font-size:20px;   } 
+.as_candidate { display:inline-table;  width:160px; background:#1d7fb0; border-radius:80px; padding:25px 20px; }
+.as_candidate a { color:#fff; line-height:30px; font-size:20px;   }  
+footer { background:#1d7fb0; padding:10px 0px; color:#fff; }
+footer a { color:#fff; margin:0px 10px; }
+.register_section { padding:30px 0px;  }
+.register_content { background:#fff; border-radius:10px; margin:0px auto; padding:20px; }
+.step_staging { text-align:center; }
+.register_form h1 { font-size:25px; text-align:center; color:#16a085; font-weight:bold; line-height:40px; border-bottom:1px solid #ccc; padding-bottom:10px; padding-top:10px; margin-bottom:20px; }
+.register_form h2 { font-size:20px; text-align:left; color:#16a085; font-weight:bold; line-height:30px; border-bottom:1px solid #efefef; padding-bottom:10px; padding-top:10px; margin-bottom:20px; }
+.register_form .form-horizontal .control-label { text-align:left; }
+.register_form .form_buttons { border-top:1px solid #ccc; padding-top:20px }
+.btn.btn-link.delete_item { color:#e74e3c; font-size:14px; }
+.new_portfolioitem { border-top:1px solid #ccc; padding-top:20px; }
+.search-page .register_content {margin-bottom: 15px;}
+.search-page .register_content .page-title {font-weight: normal;}
+.search-page .register_content .page-title i {margin-right: 10px;}
+.search-page .register_content .filter-headings {margin: 10px 0 15px;}
+.search-page .register_content .filter-headings .feature-jobs {border-bottom: 1px solid #ddd;text-align: center;padding: 0 0 10px;}
+.search-page .register_content .filter-headings .latest-popular-jobs {/* border-bottom: 1px solid #ddd;padding: 0 0 10px; */text-align: center;}
+.search-page .register_content .filter-refinement {border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;padding: 15px 0;text-align: center;margin-top: 12px;}
+.search-page .register_content .filter-container {border-bottom: 1px solid #ddd;padding: 15px 0;}
+.search-page .register_content .salary-slider { background: url(../images/salary_slider.png) no-repeat;width: 180px; height: 20px;}
+.search-page .register_content .experience-slider { background: url(../images/experience_slider.png) no-repeat;width: 180px; height: 20px;}
+.padding0 {padding: 0 !important;}
+.margin-right10 {margin-right: 10px !important;}
+.search-page .register_content .latest-popular-jobs-border {border-top: 1px solid #ddd;margin-top: -16px;}
+.search-page .list-group-item, .search-page .list-group-item:first-child { border: 0 none; border-bottom: 1px solid #ddd;margin-bottom: 0;padding: 10px 0 5px;}
+.search-page .list-group-item h4 { font-weight: bold; }
+.search-page .list-group-item .dummy-image { width: 50px; height: 50px; margin-right: 10px; border-radius: 5px;background-color: #efefef; }
+.search-page .list-group-item .job-desc-image { width: 201px; height: 50px; margin-right: 10px;}
+.search-page .list-group-item .job-desc-image.freelance { background: url(../images/freelance_icon.png) no-repeat;}
+.search-page .list-group-item .job-desc-image.intern { background: url(../images/intern_icon.png) no-repeat;}
+.search-page .list-group-item .job-desc-image.full-time { background: url(../images/full_time_icon.png) no-repeat;}
+.search-page .list-group-item .job-desc-image.part-time { background: url(../images/part_time_icon.png) no-repeat;}
+.search-page .list-group-item .job-desc-image.volunteer { background: url(../images/volunteer_icon.png) no-repeat;}
+.top_arrow_box {
+	position: relative;
+	border-top: 1px solid #16a085 !important;
+}
+.top_arrow_box:after, .top_arrow_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.top_arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 8px;
+	margin-left: -8px;
+}
+.top_arrow_box:before {
+	border-color: rgba(22, 160, 133, 0);
+	border-bottom-color: #16a085;
+	border-width: 9px;
+	margin-left: -9px;
+}
+
+
+
+
+
